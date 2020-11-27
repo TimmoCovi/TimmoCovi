@@ -1,0 +1,63 @@
+body{
+  background-image: url("../img/fondo.jpg");
+}
+
+.div{
+  background: white;
+  padding: 20px;
+}
+.input-field input:focus  {
+   border-bottom: 1px solid white !important;
+   box-shadow: 0 1px 0 0 white !important;
+  color: white !important;
+
+}
+
+#comentario input:focus  {
+   border-bottom: 1px solid #e91e63 !important;
+   box-shadow: 0 1px 0 0 #e91e63 !important;
+  color: #e91e63 !important;
+
+}
+
+#comentario input{
+  border-bottom: 1px solid #e91e63 !important;
+  box-shadow: 0 1px 0 0 #e91e63 !important;
+
+}
+
+#comentario label{
+  color: #e91e63 !important;
+}
+
+.input-field input, textarea{
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+
+}
+ .input-field label {
+   color: white !important;
+ }
+
+ #boton{
+  margin-right: 20px;
+ color: #e91e63;
+ font-weight: bold;
+ }
+
+form{
+  align-items: center;
+  background: #e91e63;
+}
+
+#penultima{
+padding-right: 25px;
+}
+#ultima{
+  padding: 20px;
+
+}
+#perfil{
+  text-align: center;
+  border-bottom: solid #e91e63;
+}
